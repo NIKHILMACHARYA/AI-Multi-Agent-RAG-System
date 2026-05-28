@@ -97,7 +97,7 @@ async def agent_chat(body: AgentChatRequest, current_user: dict = Depends(get_cu
     except Exception as exc:
         logger.exception("Agent graph error")
         raise HTTPException(status_code=503, detail=str(exc))
-
+        
     return AgentChatResponse(
         answer=result["answer"],
         sources=result["sources"],
