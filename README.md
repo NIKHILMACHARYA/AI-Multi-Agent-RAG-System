@@ -11,17 +11,17 @@ This platform orchestrates specialized AI agents using LangGraph to process ente
 - Modern Enterprise Stack: Asynchronous FastAPI backend coupled with a sleek Next.js dashboard.
 - Real-World Tool Integration: Agents can autonomously execute tasks using integrated capabilities:
 
-🌐 Web Search (Live data fetching)
-📧 Email (Automated notifications and drafting)
-🐙 GitHub (Issue tracking, PR insights, and repo analysis)
-💻 Code Execution (Safe sandbox environment for data analysis and scripting)
-🎨 Image Generation (Visual asset creation on demand)
+- 🌐 Web Search (Live data fetching)
+- 📧 Email (Automated notifications and drafting)
+- 🐙 GitHub (Issue tracking, PR insights, and repo analysis)
+- 💻 Code Execution (Safe sandbox environment for data analysis and scripting)
+- 🎨 Image Generation (Visual asset creation on demand)
 
 ⚙️ Prerequisites:
-Python 3.10+
-Node.js 18+
-Docker & Docker Compose (Recommended for seamless setup)
-API Keys for your preferred LLM provider (e.g., GeminiAPI,GrokAPI, OpenAI) and tool integrations (GitHub, Search APIs, etc.).
+- Python 3.10+
+- Node.js 18+
+- Docker & Docker Compose (Recommended for seamless setup)
+- API Keys for your preferred LLM provider (e.g., GeminiAPI,GrokAPI, OpenAI) and tool integrations (GitHub, Search APIs, etc.).
 
 ⚙️ Usage: 
 - Ingest Documents: Navigate to the Document Manager in the Next.js UI to upload PDFs, TXT, or Markdown enterprise documents. They are automatically chunked, embedded, and  indexed into ChromaDB.
